@@ -1,58 +1,25 @@
 ## Projet-Data-Analysis
 
-Dans le cadre de projets académiques, nous avons initié une analyse de données pour identifier les domaines avec une TVA en augmentation et comprendre les raisons. Cette analyse repose sur l'ACP pour extraire des informations clés, visant à décrypter les tendances et facteurs sous-jacents aux variations de la TVA.
-
-# Projet : Etude de marché IAA, stratégie d'exportation
-### Projet du parcours Data Analyst OpenClassrooms en partenariat avec l’ENSAE-ENSAI.
-Projet d'étude de marché sur le développement d'une entreprise d'agroalimentaire à l'international.
-*Industrie Agroalimentaire (IAA)* 
+Dans le cadre de projets académiques, nous avons initié une analyse de données pour identifier les domaines avec une TVA en augmentation et comprendre les raisons. Cette analyse repose sur l'ACP pour extraire des informations clés, visant à décrypter les tendances et facteurs sous-jacents aux variations de la TVA. 
 
 ![ellipse](https://github.com/hmoumad/hmoumad/blob/main/ellipse.png)
 
-## Préambule
-Pour ce projet, les données ont été manipulées en Python sur support Jupyter Notebook. Opérations de clustering hiérarchique et K-Means, ACP et visualisation des clusters Pays sur le(s) plan(s) factoriel(s), cercle des corrélations. 
+## Description des données
 
-### Les données
-*Data source* [FAO](http://www.fao.org/faostat/fr/#data)
+Dans le but de mettre en pratique la Méthode HCP avec le langage R nous avons choisir comme données la variation de Valeurs ajouter au Maroc dans les années précédents. 
 
-### Compétences évaluées
+Ces données font partie de de l’ensemble des données publiées par Le Haut-commissariat au
+Plan (HCP) de Compte de nation. en fait les comptes nationaux constituent l’une des composantes essentielles du système national d’information statistique. Ils donnent une représentation chiffrée détaillée de l’économie nationale aux niveaux annuel et trimestriel.
+
+## Compétences évaluées
  - Construire et lire un dendogramme
  - Tester l’adéquation à une loi par un test statistique
  - Interpréter une ACP
 
-
-## Prérequis techniques
-Si vous n'avez jamais installé **Python**, alors autant installer directement la **distribution Anaconda**.
-Anaconda est donc une distribution Python, faite pour la Data Science.
-
-De cette manière on peut installer Python et ses librairies de Data Science Pandas, Matplotlib, Seaborn, Scipy, Numpy etc… 
-Mais aussi le notebook Jupyter, qui reste incontournable et vivement recommandé!
-C'est par ici : [Anaconda](https://www.anaconda.com/download)
-
-Si vous souhaitez lancer le projet, il sera nécessaire d'installer Jupyter Notebook sur votre mahcine. 
-La doc. Jupyter est accessible via : [Jupyter Documentation](https://jupyter.readthedocs.io/en/latest/install.html) 
+## Installation des librairies R 
+*Pour installer python ainsi que les librairies de Data Science, il est fortement recommandé d'installer la distribution RStudio.* 
 
 ```
-python -m pip install --upgrade pip    
-python -m pip install jupyter
+installed . packages (" FactoMinerR ")  
+ library (" FactoMineR ")
 ```
-
-Pour tester l'installation, vous pouvez taper dans votre console la commande suivante :
-
-```
-jupyter notebook
-```
-
-### Installation des librairies Python uniquement
-*Pour installer python ainsi que les librairies de Data Science, il est fortement recommandé d'installer la distribution Anaconda.* 
-
-```
-pip install pandas
-pip install matplotlib
-pip install numpy
-pip install scipy
-```
-
-## Auteur
-
-**Nalron** *(Nicolas Pasero)* [Persona](https://nalron.com) - *Initial work* - [Github](https://github.com/nalron)
