@@ -25,3 +25,5 @@ library (" FactoMineR ")
 ```
 
 ## pour plus de details voire le fichier "code.R"
+
+https://github.com/hmoumad/Projet-Data-Analysis/blob/main/code.R
