@@ -7,7 +7,7 @@ Dans le cadre de projets académiques, nous avons initié une analyse de donnée
 Projet d'étude de marché sur le développement d'une entreprise d'agroalimentaire à l'international.
 *Industrie Agroalimentaire (IAA)* 
 
-[![Corrélation]([p5_graphic/cercle_correlation.png](https://github.com/hmoumad/hmoumad/blob/main/ellipse.png))](https://github.com/hmoumad/hmoumad/blob/main/ellipse.png)
+https://github.com/hmoumad/hmoumad/blob/main/ellipse.png
 
 ## Préambule
 Pour ce projet, les données ont été manipulées en Python sur support Jupyter Notebook. Opérations de clustering hiérarchique et K-Means, ACP et visualisation des clusters Pays sur le(s) plan(s) factoriel(s), cercle des corrélations. 
