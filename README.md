@@ -21,5 +21,7 @@ Plan (HCP) de Compte de nation. en fait les comptes nationaux constituent l’un
 
 ```
 installed . packages (" FactoMinerR ")  
- library (" FactoMineR ")
+library (" FactoMineR ")
 ```
+
+## pour plus de details voire le fichier "code.R"
